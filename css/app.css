@@ -1,0 +1,207 @@
+/* Custom CSS */
+
+html {
+     overflow-x: hidden;
+ }
+
+.contentstyle {
+  border: 3px dotted #2ba6cb;
+  background-image: url(../images/bg.png);
+}
+
+.reveal-modal {
+  background-image: url(../images/bg.png);
+
+}
+
+.portfolioimages img {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.blacktext {
+ color:#2c3e50;
+}
+
+.leftdots {
+  border-left: 1px dotted #2ba6cb;
+}
+
+ .bottomdots{
+ border-bottom: 1px dotted #2ba6cb;
+ }
+
+.tape {
+  width: 100%;
+  float: right;
+  position: relative;
+  padding: 16px;
+  z-index: 1000;
+}
+
+.tape_bg {
+  background-image: url(../images/tape_left.png);
+  background-repeat: no-repeat;
+  width: 94px;
+  height: 70px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+
+.tape_bg2 {
+  background-image: url(../images/tape_right.png);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 88px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.tape2 {
+  width: 100%;
+  float: right;
+  position: relative;
+
+}
+
+.tape2_bg {
+  background-image: url(../images/tape2_left.png);
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 94px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+    margin-top: -50px;
+
+}
+
+.tape2_bg2 {
+  background-image: url(../images/tape2_right.png);
+  background-repeat: no-repeat;
+  width: 88px;
+  height: 80px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+    margin-top: -50px;
+
+}
+
+.orbit-slide-number, .orbit-timer, .orbit-bullets {
+  display: none;
+}
+
+.progress_style {
+  margin-top:9px !important;
+  color:#000 !important;
+  height:40px !important;
+}
+
+.meter_skill1 {  width: 100%; }
+.meter_skill2 {  width: 80%; }
+.meter_skill3 {  width: 80%; }
+.meter_skill4 {  width: 90%; }
+.meter_skill5 {  width: 70%; }
+.meter_skill6 {  width: 90%; }
+.meter_skill7 {  width: 40%; }
+.meter_skill8 {  width: 40%; }
+.meter_skill9 {  width: 15%; }
+.meter_skill10 { width: 15%; }
+.meter_skill11 { width: 50%; }
+.meter_skill12 { width: 30%; }
+
+.textarea_style { min-height:135px; }
+
+/* Profile Pic */
+.prof-circle {
+    border-radius: 50%;
+}
+.prof-circle-border {
+    border-radius: 75%
+}
+
+/* Social Media Icons */
+.social img {
+  opacity: 0.6;
+  filter:alpha(opacity=60); /* For IE8  */
+  -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.social img:hover {
+  opacity: 1;
+  filter:alpha(opacity=100); /* For IE8 */
+  -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+/* Text Logo */
+@font-face {
+    font-family: 'kg_zeyadaregular';
+    src: url('kgzeyada-webfont.eot');
+    src: url('kgzeyada-webfont.eot?#iefix') format('embedded-opentype'),
+         url('kgzeyada-webfont.woff2') format('woff2'),
+         url('kgzeyada-webfont.woff') format('woff'),
+         url('kgzeyada-webfont.ttf') format('truetype'),
+         url('kgzeyada-webfont.svg#kg_zeyadaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.text-logo {
+    font-family: 'kg_zeyadaregular', cursive;
+}
+
+/* Header Fonts */
+.headers {
+    font-family: 'Delius Unicase', cursive;
+    color: darkblue;
+}
+
+/* Image Thumbnails 2*/
+.th2 {
+  border: solid 2px #2ba6cb;
+ }
+
+/* Update Date */
+.update-date {
+  font-size: 14px;
+  color: #d11728;
+}
+.update-date2 {
+  color: #d11728;
+  font-weight: bold;
+}
+
+/* Portfolio Content Text */
+.client {
+    color: crimson;
+    font-weight: bold;
+}
+
+/* Education & Experience Text */
+.ed-header {
+    font-family: 'Delius Unicase', cursive;
+    color: darkslateblue;
+}
+
+.emp-header {
+    font-family: 'Delius Unicase', cursive;
+    color: darkslateblue;
+}
+
+/* Footer Text (Copyright stuff) */
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
